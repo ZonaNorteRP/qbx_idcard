@@ -12,26 +12,32 @@ return {
         ['id_card'] = {
             header = 'Identidade',
             background = '#ebf7fd',
-            backgroundImage = 'https://i.ibb.co/vxvGzg1/card.png',
+            backgroundImage = 'content.webp',
             prop = 'prop_franklin_dl'
         },
         ['driver_license'] = {
             header = 'Carteira de Motorista',
             background = '#febbbb',
-            backgroundImage = 'https://i.ibb.co/vxvGzg1/card.png',
+            backgroundImage = 'content.webp',
             prop = 'prop_franklin_dl',
         },
         ['weaponlicense'] = {
             header = 'Porte de Armas',
             background = '#c7ffe5',
-            backgroundImage = 'https://i.ibb.co/vxvGzg1/card.png',
+            backgroundImage = 'content.webp',
             prop = 'prop_franklin_dl',
         },
         ['lawyerpass'] = {
-            header = 'Carteira OAB',
+            header = 'Carteira do Judiciario',
             background = '#f9c491',
-            backgroundImage = 'https://i.ibb.co/vxvGzg1/card.png',
+            backgroundImage = 'content.webp',
             prop = 'prop_cs_r_business_card'
+        },
+        ['passport'] = {
+            header = 'Passaporte',
+            background = '#d4af37', -- Dourado/Bronze
+            backgroundImage = 'content.webp',
+            prop = 'prop_franklin_dl'
         }
     }
 }

@@ -14,7 +14,7 @@ end
 ---@param itemName string
 ---@return string | table
 local function GetBadge(src, itemName)
-    if not sharedConfig.licenses[itemName].badge then return 'none' end
+    if not sharedConfig.licenses[itemName] or not sharedConfig.licenses[itemName].badge then return 'none' end
 
     local player = exports.qbx_core:GetPlayer(src)
     return {

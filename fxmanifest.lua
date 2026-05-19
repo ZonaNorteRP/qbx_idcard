@@ -37,4 +37,5 @@ files {
 	'lang/global.js',
 	'web/js/*.js',
 	'web/badges/*.png',
+	'web/*.webp',
 }
